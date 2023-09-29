@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2331C1C"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="288dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="208dp"
+        android:src="@drawable/circle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="191dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/_00_00_00"
+        android:textColor="#D3D0D0"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="104dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="260dp"
+        android:src="@drawable/circle1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867"/>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="54dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="284dp"
+        android:background="@drawable/stop"
+        android:text="."
+        android:textColor="#220101"
+        android:onClick="onClickStop"
+        app:backgroundTint="#D3D0D0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.851"/>
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="116dp"
+        android:layout_marginEnd="132dp"
+        android:src="@drawable/circle1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="76dp"
+        android:layout_height="62dp"
+        android:background="@drawable/play1"
+        android:onClick="onClickStart"
+        app:backgroundTint="#D3D0D0"
+        android:text="."
+        android:textColor="#220101"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856"/>
+
+    <ImageView
+        android:layout_width="104dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/circle1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="54dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/restart"
+        android:onClick="onClickReset"
+        android:text="."
+        android:textColor="#220101"
+        app:backgroundTint="#D3D0D0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
